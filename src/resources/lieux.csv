@@ -1,0 +1,11 @@
+id	lieu	couleur	poids	check
+1	Maison	white	1	1
+2	Vie Scolaire	cadet_blue	1	1
+3	Bus	medium_turquoise	2	2
+4	Salle de classe	pale_turquoise	3	3
+5	Queue du portail	lavender	3	3
+6	CDI	plum	3	3
+7	Toilettes	orchid	4	4
+8	Couloir	coral	4	4
+9	Cantine	dark_orange	5	5
+10	Cour	orange_red	6	6

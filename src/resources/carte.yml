@@ -1,0 +1,72 @@
+Titre:
+  extends: inside
+  x: += 10
+  y: += 50
+  height: 50
+  font: ChunkFive Roman,Bold 16
+  color: '#232F23'
+  valign: top
+  align: center
+
+Message:
+  extends: inside
+  y: +=500
+  x: +=50
+  width: -= 50
+  font: ChunkFive Roman,Bold 10
+  align: center
+
+
+Footer:
+  extends: inside
+  y: 1000
+  x: 650
+  font: ChunkFive Roman,Plain 8
+
+Lieu:
+  extends: inside
+  y: += 150
+  width: 500
+  height: 80
+  font: ChunkFive Roman,Italic 12
+  align: left
+
+Lieu1:
+  extends: Lieu
+  y: += 100
+Lieu1Text:
+  extends: Lieu1
+  y: += 20
+  x: += 20
+
+Lieu2:
+  extends: Lieu1
+  y: += 100
+Lieu2Text:
+  extends: Lieu2
+  y: += 20
+  x: += 20
+
+Lieu3:
+  extends: Lieu2
+  y: += 100
+Lieu3Text:
+  extends: Lieu3
+  y: += 20
+  x: += 20
+  
+Lieu4:
+  extends: Lieu3
+  y: += 100
+Lieu4Text:
+  extends: Lieu4
+  y: += 20
+  x: += 20
+
+Lieu5:
+  extends: Lieu4
+  y: += 100
+Lieu5Text:
+  extends: Lieu5
+  y: += 20
+  x: += 20

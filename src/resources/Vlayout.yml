@@ -1,0 +1,30 @@
+bleed:
+  width: 2.75in
+  height: 3.75in
+  stroke_color: '#0000'
+  fill_color: '#0000'
+
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 2.5in
+  height: 3.5in
+  color: white
+  radius: 0
+  stroke_color: black
+  fill_color: white
+
+frame:
+  extends: cut
+  x: += 38
+  y: += 38
+  width: 2.25in
+  height: 3.25in
+  radius: 25
+
+inside:
+  extends: frame
+  color: black
+  radius: 25
+  width: 675
+  height: 975
