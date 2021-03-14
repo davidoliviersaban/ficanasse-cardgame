@@ -10,11 +10,13 @@ Titre:
 
 Message:
   extends: inside
-  y: +=500
   x: +=50
-  width: -= 50
-  font: ChunkFive Roman,Bold 10
+  width: -= 100
+  font: ChunkFive Roman,Plain 12
   align: center
+  valign: middle
+  spacing: 80
+#  justify: true
 
 
 Footer:
